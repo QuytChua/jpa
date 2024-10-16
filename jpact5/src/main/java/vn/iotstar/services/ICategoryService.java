@@ -1,10 +1,10 @@
-package vn.iotstar.dao;
+package vn.iotstar.services;
 
 import java.util.List;
 
 import vn.iotstar.entity.Category;
 
-public interface ICategoryDao {
+public interface ICategoryService {
 	int count();
 
 	List<Category> findAll(int page, int pagesize);

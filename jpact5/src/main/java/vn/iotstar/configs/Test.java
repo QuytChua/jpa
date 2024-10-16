@@ -12,7 +12,7 @@ public static void main(String[] args) {
 		EntityTransaction trans = enma.getTransaction();
 		Category cate = new Category();
 		cate.setCategoryname("A");
-		cate.setImages("p");
+		cate.setImages("https://cellphones.com.vn/sforum/wp-content/uploads/2021/07/gg.jpg");
 		cate.setStatus(1);
 		try {
 			trans.begin();
