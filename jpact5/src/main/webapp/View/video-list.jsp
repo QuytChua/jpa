@@ -37,7 +37,7 @@
             </td>
             <td>${video.title}</td>
             <td>${video.views}</td>
-            <td>${video.active ? 'Active' : 'Inactive'}</td>
+            <td>${video.active == 1 ? 'Active' : 'Inactive'}</td>
             <td>${video.category.categoryId}</td> <!-- Hiển thị categoryId -->
             <td>${video.videoId}</td> <!-- Hiển thị videoId -->
             <td>

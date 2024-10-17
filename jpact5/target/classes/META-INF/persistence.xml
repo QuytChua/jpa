@@ -14,12 +14,11 @@
 				value="jdbc:mysql://localhost:3306/jpa" />
 			<property name="jakarta.persistence.jdbc.user" value="root" />
 			<property name="jakarta.persistence.jdbc.password"
-	value="12062004" />
-			<property
-				name="jakarta.persistence.schema-generation.database.action"
-				value="create" />
+				value="12062004" />
+
+			<property name="hibernate.hbm2ddl.auto" value="update" />
 			<property name="hibernate.dialect"
-				value="org.hibernate.dialect.MySQLDialect" />
+				value="org.hibernate.dialect.MySQL8Dialect" />
 			<property name="hibernate.show_sql" value="true" />
 			<property name="hibernate.format_sql" value="true" />
 		</properties>

@@ -42,6 +42,10 @@ public class VideoController extends HttpServlet{
 			List<Video> list = vidService.findAll();
 			req.setAttribute("listVideos", list);
 			req.getRequestDispatcher("/View/video-list.jsp").forward(req, resp);
+			
+			for(var l : list) {
+				System.out.print(l.getId());
+			}
 		}
 
 		else if (url.contains("add")) {
